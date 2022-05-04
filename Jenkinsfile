@@ -1,4 +1,4 @@
 dockerComposePipeline(
     commands: [
-        'curl -f http://localhost/viewer.php?cachefile=Interview62894.xml'
+        [exec: 'curl -sfo /dev/null http://localhost/viewer.php?cachefile=Interview62894.xml']
     ])

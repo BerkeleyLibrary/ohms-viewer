@@ -5,3 +5,9 @@ services:
     build: .
     ports:
       - 80:80
+    volumes:
+      - ./html/cachefiles:/var/www/html/cachefiles
+      - ./html/config/config.ini:/var/www/html/config/config.ini
+      - ./html/css/custom_default.css:/var/www/html/css/custom_default.css
+      - ./html/css/ucb_customizations_responsive.css:/var/www/html/css/ucb_customizations_responsive.css
+      - ./html/tmpl/viewer.tmpl.php:/var/www/html/tmpl/viewer.tmpl.php

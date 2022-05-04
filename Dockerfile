@@ -1,4 +1,4 @@
-FROM php:7-apache
+FROM php:8-apache
 
 # Install the codebase from its GitHub release.
 ARG OHMS_VIEWER_VERSION=3.8.10
@@ -14,3 +14,8 @@ RUN apt-get update -qq && \
 # or configs.
 COPY html /opt/app/ohms-customizations
 RUN rsync -chavzP /opt/app/ohms-customizations/ /var/www/html/
+
+# The codebase throws a bunch of PHP8 warnings which, if not suppressed, clog up the
+# rendered page. We suppress them by adding a custom configuration file per the base
+# image docs.
+COPY php/php.ini $PHP_INI_DIR/conf.d/
