@@ -126,13 +126,13 @@ GASCRIPT;
     ?>
 
       <div id="banner">
-        <a href="http://www.lib.berkeley.edu/libraries/bancroft-library/oral-history-center">
+        <a href="https://www.lib.berkeley.edu/visit/bancroft/oral-history-center">
           <img id="custombannerimg-wide" src="imgs/banner_wide.png" alt="Oral History Center at The Bancroft Library">
           <img id="custombannerimg-narrow" src="imgs/banner_narrow.png" alt="Oral History Center at The Bancroft Library">
         </a>
         <div class="header-links">
-          <a href="http://www.lib.berkeley.edu/libraries/bancroft-library/oral-history-center">OHC Home |</a>
-          <a href="http://lib.berkeley.edu">Library Home</a>
+          <a href="https://www.lib.berkeley.edu/visit/bancroft/oral-history-center">OHC Home |</a>
+          <a href="https://www.lib.berkeley.edu/">Library Home</a>
         </div>
 
       </div>
@@ -236,8 +236,8 @@ GASCRIPT;
 
     <div id="footer-logo"><a href="https://www.berkeley.edu/"><img src="https://www.lib.berkeley.edu/sites/default/files/logo_berkeley_white.png" alt="UC Berkeley" border="0" /></a></div>
     <div id="footer-links">
-      <a href="https://www.lib.berkeley.edu/libraries/bancroft-library/oral-history-center/rights"><strong>Rights and Permissions</strong></a>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-      <a href="https://www.lib.berkeley.edu/libraries/bancroft-library/oral-history-center/contact"><strong>Contact Us</strong></a>
+      <a href="https://www.lib.berkeley.edu/visit/bancroft/oral-history-center/projects?section=permissions"><strong>Rights and Permissions</strong></a>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
+      <a href="https://www.lib.berkeley.edu/visit/bancroft/oral-history-center#library-contacts"><strong>Contact Us</strong></a>
     </div>
 <p><span><h3>Copyright © The Regents of the University of California. All rights reserved.</h3></span></p>
 </div>
