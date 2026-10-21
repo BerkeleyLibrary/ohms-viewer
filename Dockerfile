@@ -1,4 +1,4 @@
-FROM php:8-apache
+FROM php:8.5.12-apache
 
 # Install the codebase from its GitHub release.
 ARG OHMS_VIEWER_VERSION=v3.10.16
