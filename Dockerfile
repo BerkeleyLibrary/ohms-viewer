@@ -1,7 +1,7 @@
 FROM php:8-apache
 
 # Install the codebase from its GitHub release.
-ARG OHMS_VIEWER_VERSION=v3.9.1
+ARG OHMS_VIEWER_VERSION=v3.10.16
 ENV OHMS_VIEWER_SOURCE_URL=https://github.com/uklibraries/ohms-viewer/archive/refs/tags/${OHMS_VIEWER_VERSION}.tar.gz
 RUN curl -L $OHMS_VIEWER_SOURCE_URL | tar zx --strip-components=1
 
